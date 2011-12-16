@@ -3,7 +3,7 @@ $banner_classes = theme_get_setting('banner_classes');
 $banner_image_path = theme_get_setting('banner_image_path'); 
 ?>
 <!DOCTYPE html>
-<meta charset="utf-8">
+<html>
 <head>
 <title><?php print $head_title ?></title>
 <?php print $head ?><?php print $styles ?>
@@ -11,8 +11,14 @@ $banner_image_path = theme_get_setting('banner_image_path');
 <?php print $scripts ?>
 </head>
 <body class="<?php print $body_classes; ?><?php stanford_wilbur_body_class($left, $right, $frontside); ?>">
-<div id="layout"> 
-  <!-- Start Global Header -->
+<div id="skipnav">
+  <p>Skip to:</p>
+  <ul>
+    <li><a href="#content">Main Content</a></li>
+  </ul>
+</div>
+<!-- /#skipnav -->
+<div id="layout">
   <div id="global-header">
     <div class="wrapper clear-block">
       <div id="top-logo"><a href="http://www.stanford.edu"><img src="<?php print base_path() . path_to_theme(); ?>/images/header-stanford-logo.png" width="198" height="11" alt="Stanford University" /></a></div>
@@ -21,7 +27,7 @@ $banner_image_path = theme_get_setting('banner_image_path');
       <?php endif; ?>
     </div>
   </div>
-  <!-- End Global Header -->
+  <!-- /#global-header -->
   <div id="container">
     <div class="wrapper clear-block"> 
       <!-- Start header -->
@@ -43,15 +49,15 @@ $banner_image_path = theme_get_setting('banner_image_path');
         <div id="search" role="search"> <?php print $search_box; ?> </div>
         <?php endif; ?>
       </div>
-      <!-- End header -->
+      <!-- /#header -->
       <div id="navigation" role="navigation" class="clear-block">
         <?php if (isset($primary_links)): ?>
         <?php print theme('links', $primary_links, array('class' => 'links primary-links')) ?>
         <?php endif; ?>
       </div>
-      <!-- Start content -->
-      <div id="content" role="main" class="clear-block">
-        <div id="front-main" class="clear-block">
+      <!-- /#navigation -->
+      <div id="content" class="clear-block">
+        <div id="front-main" role="main" class="clear-block">
           <?php if ($banner_classes): ?>
           <div id="banner" role="presentation"> <img src="<?php print $base_path . $banner_image_path; ?>" alt="" /> </div>
           <?php endif; ?>
@@ -64,14 +70,14 @@ $banner_image_path = theme_get_setting('banner_image_path');
           <?php if ($front3): ?>
           <div id="front-region3" class="clear-block"> <?php print $front3; ?> </div>
           <?php endif; ?>
-          <?php print $content ?>
-        </div>
+          <?php print $content ?> </div>
+        <!-- /#front-main -->
         <?php if ($frontside): ?>
         <div id="front-sidebar-right" class="clear-block"> <?php print $frontside; ?> </div>
+        <!-- /#front-sidebar-right -->
         <?php endif; ?>
       </div>
-      <!-- End content --> 
-      <!-- Start footer links -->
+      <!-- /#content -->
       <div id="footer" role="contentinfo" class="clear-block">
         <?php if ($footer): ?>
         <?php print $footer ?>
@@ -81,10 +87,10 @@ $banner_image_path = theme_get_setting('banner_image_path');
         <?php $linknum = count($secondary_links); print '<div id="navigation-secondary" role="navigation" class="across-' . $linknum . '">'; $menu_name = variable_get('menu_secondary_links_source', 'secondary-links'); print menu_tree($menu_name); print '</div>'; ?>
         <?php endif; ?>
       </div>
-      <!-- End footer links --> 
+      <!-- /#footer --> 
     </div>
   </div>
-  <!-- Start Global Footer -->
+  <!-- /#container -->
   <div id="global-footer">
     <div class="wrapper clear-block">
       <div id="bottom-logo"> <a href="http://www.stanford.edu"><img src="<?php print base_path() . path_to_theme(); ?>/images/footer-stanford-logo.png" alt="Stanford University" /></a> </div>
@@ -102,8 +108,9 @@ $banner_image_path = theme_get_setting('banner_image_path');
       </div>
     </div>
   </div>
-  <!-- End Global Footer --> 
+  <!-- /#global-footer --> 
 </div>
+<!-- /#layout --> 
 <?php print $closure ?>
 </body>
 </html>

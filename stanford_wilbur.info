@@ -1,13 +1,24 @@
 name = Stanford Wilbur
 description = Tableless, multi-column theme provided by <a href="http://webservices.stanford.edu">Stanford Web Services</a>. Recommended for department and official group sites.
 core = 6.x
-version = 6.x-1.0
+version = 6.x-1.1
 engine = phptemplate
 
+stylesheets[all][] = css/stanford_wilbur.css
+stylesheets[screen and (max-width: 640px)][] = css/mobile.css
+stylesheets[print][] = css/print.css
+
+scripts[] = js/stanford_wilbur.js
+
 regions[header] = Header
+regions[nav] = Navigation
+regions[top] = Top content
+regions[upper] = Upper content
+regions[feature] = Feature content
 regions[content] = Content
 regions[left] = Left sidebar
 regions[right] = Right sidebar
+regions[bottom] = Bottom content
 regions[footer] = Footer
 
 regions[front1] = Front Page Row 1
@@ -29,10 +40,4 @@ features[] = search
 features[] = favicon
 features[] = primary_links
 features[] = secondary_links
-
-stylesheets[all][] = css/stanford_wilbur.css
-stylesheets[screen and (max-width: 640px)][] = css/mobile.css
-stylesheets[print][] = css/print.css
-
-scripts[] = js/stanford_wilbur.js
 

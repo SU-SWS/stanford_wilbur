@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<meta charset="utf-8">
+<html>
 <head>
 <title><?php print $head_title ?></title>
 <?php print $head ?><?php print $styles ?>
@@ -7,8 +7,14 @@
 <?php print $scripts ?>
 </head>
 <body class="<?php print $body_classes; ?><?php stanford_wilbur_body_class($left, $right, $frontside); ?>">
-<div id="layout"> 
-  <!-- Start Global Header -->
+<div id="skipnav">
+  <p>Skip to:</p>
+  <ul>
+    <li><a href="#content">Main Content</a></li>
+  </ul>
+</div>
+<!-- /#skipnav -->
+<div id="layout">
   <div id="global-header">
     <div class="wrapper clear-block">
       <div id="top-logo"><a href="http://www.stanford.edu"><img src="<?php print base_path() . path_to_theme(); ?>/images/header-stanford-logo.png" width="198" height="11" alt="Stanford University" /></a></div>
@@ -17,10 +23,9 @@
       <?php endif; ?>
     </div>
   </div>
-  <!-- End Global Header -->
+  <!-- /#global-header -->
   <div id="container">
-    <div class="wrapper clear-block"> 
-      <!-- Start header -->
+    <div class="wrapper clear-block">
       <div id="header" role="banner" class="clear-block">
         <?php if ($logo): ?>
         <div id="logo"> <a href="<?php print $front_page; ?>" title="<?php print $site_name; ?>"><img src="<?php print $logo; ?>" alt="<?php print $site_name; ?>" /></a> </div>
@@ -39,15 +44,21 @@
         <div id="search" role="search"> <?php print $search_box; ?> </div>
         <?php endif; ?>
       </div>
-      <!-- End header -->
+      <!-- /header -->
       <div id="navigation" role="navigation" class="clear-block">
         <?php if (isset($primary_links)): ?>
         <?php print theme('links', $primary_links, array('class' => 'links primary-links')) ?>
         <?php endif; ?>
       </div>
-      <!-- Start content -->
-      <div id="content" role="main" class="clear-block">
-        <div id="main">
+      <!-- /#navigation -->
+      <?php if ($top): ?>
+      <div id="top"><?php print $top ?></div>
+      <?php endif; ?>
+      <div id="content" class="clear-block">
+        <div id="main" role="main">
+          <?php if ($upper): ?>
+          <div id="upper"><?php print $upper ?></div>
+          <?php endif; ?>
           <?php if ($title): print '<h1 class="title'. ($tabs ? ' with-tabs' : '') .'">'. $title .'</h1>'; endif; ?>
           <?php if ($mission): print '<div id="mission">'. $mission .'</div>'; endif; ?>
           <?php if ($show_messages && $messages): print $messages; endif; ?>
@@ -55,29 +66,36 @@
           <?php if ($tabs): print '<ul class="tabs primary">'. $tabs .'</ul>'; endif; ?>
           <?php if ($tabs2): print '<ul class="tabs secondary">'. $tabs2 .'</ul>'; endif; ?>
           <?php if ($tabs): print '</div>'; endif; ?>
+          <?php if ($feature): ?>
+          <div id="feature"><?php print $feature ?></div>
+          <?php endif; ?>
           <?php print $help; ?> <?php print $content ?> </div>
+        <!-- /#main -->
         <?php if ($left): ?>
         <div id="sidebar-left"><?php print $left; ?></div>
+        <!-- /#sidebar-left -->
         <?php endif; ?>
         <?php if ($right): ?>
         <div id="sidebar-right"><?php print $right; ?></div>
+        <!-- /#sidebar-right -->
         <?php endif; ?>
       </div>
-      <!-- End content --> 
-      <!-- Start footer links -->
+      <!-- /#main -->
+      <?php if ($bottom): ?>
+      <div id="bottom"><?php print $bottom ?></div>
+      <?php endif; ?>
       <div id="footer" role="contentinfo" class="clear-block">
+        <?php if (isset($secondary_links)): ?>
+        <?php $linknum = count($secondary_links); print '<div id="navigation-secondary" role="navigation" class="clear-block across-' . $linknum . '">'; $menu_name = variable_get('menu_secondary_links_source', 'secondary-links'); print menu_tree($menu_name); print '</div>'; ?>
+        <?php endif; ?>
         <?php if ($footer): ?>
         <?php print $footer ?>
         <?php endif; ?>
-        <?php print $footer_message ?>
-        <?php if (isset($secondary_links)): ?>
-        <?php $linknum = count($secondary_links); print '<div id="navigation-secondary" role="navigation" class="across-' . $linknum . '">'; $menu_name = variable_get('menu_secondary_links_source', 'secondary-links'); print menu_tree($menu_name); print '</div>'; ?>
-        <?php endif; ?>
-      </div>
-      <!-- End footer links --> 
+        <?php print $footer_message ?> </div>
+      <!-- /#footer --> 
     </div>
   </div>
-  <!-- Start Global Footer -->
+  <!-- /#container -->
   <div id="global-footer">
     <div class="wrapper clear-block">
       <div id="bottom-logo"> <a href="http://www.stanford.edu"><img src="<?php print base_path() . path_to_theme(); ?>/images/footer-stanford-logo.png" alt="Stanford University" /></a> </div>
@@ -95,8 +113,9 @@
       </div>
     </div>
   </div>
-  <!-- End Global Footer --> 
+  <!-- /#global-footer --> 
 </div>
+<!-- /#layout --> 
 <?php print $closure ?>
 </body>
 </html>

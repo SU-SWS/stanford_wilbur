@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<meta charset="utf-8">
+<html>
 <head>
 <title><?php print $head_title ?></title>
 <?php print $head ?><?php print $styles ?>
@@ -7,8 +7,14 @@
 <?php print $scripts ?>
 </head>
 <body class="<?php print $body_classes; ?><?php stanford_wilbur_body_class($left, $right, $frontside); ?>">
-<div id="layout"> 
-  <!-- Start Global Header -->
+<div id="skipnav">
+  <p>Skip to:</p>
+  <ul>
+    <li><a href="#content">Main Content</a></li>
+  </ul>
+</div>
+<!-- /#skipnav -->
+<div id="layout">
   <div id="global-header">
     <div class="wrapper clear-block">
       <div id="top-logo"><a href="http://www.stanford.edu"><img src="<?php print base_path() . path_to_theme(); ?>/images/header-stanford-logo.png" width="198" height="11" alt="Stanford University" /></a></div>
@@ -17,10 +23,9 @@
       <?php endif; ?>
     </div>
   </div>
-  <!-- End Global Header -->
+  <!-- /#global-header -->
   <div id="container">
-    <div class="wrapper clear-block"> 
-      <!-- Start header -->
+    <div class="wrapper clear-block">
       <div id="header" role="banner" class="clear-block">
         <?php if ($logo): ?>
         <div id="logo"> <a href="<?php print $front_page; ?>" title="<?php print $site_name; ?>"><img src="<?php print $logo; ?>" alt="<?php print $site_name; ?>" /></a> </div>
@@ -39,19 +44,18 @@
         <div id="search" role="search"> <?php print $search_box; ?> </div>
         <?php endif; ?>
       </div>
-      <!-- End header -->
+      <!-- /#header -->
       <div id="navigation" role="navigation" class="clear-block">
         <?php if (isset($primary_links)): ?>
         <?php print theme('links', $primary_links, array('class' => 'links primary-links')) ?>
         <?php endif; ?>
       </div>
-      <!-- Start content -->
-      <div id="content" role="main" class="clear-block">
+      <div id="content" class="clear-block">
         <?php if ($landingimage): ?>
         <div id="landing-image" role="presentation" class="clear-block"> <?php print $landingimage; ?> </div>
+        <!-- /#landing-image -->
         <?php endif; ?>
-        
-        <div id="landing-main" class="clear-block">
+        <div id="landing-main" role="main" class="clear-block">
           <?php if ($landing1): ?>
           <div id="landing-region1" class="clear-block"> <?php print $landing1; ?> </div>
           <?php endif; ?>
@@ -67,11 +71,10 @@
           <?php if ($landing5): ?>
           <div id="landing-region5" class="clear-block"> <?php print $landing5; ?> </div>
           <?php endif; ?>
-          <?php print $content ?>
-        </div>
+          <?php print $content ?> </div>
+        <!-- /#landing-main --> 
       </div>
-      <!-- End content --> 
-      <!-- Start footer links -->
+      <!-- /#content -->
       <div id="footer" role="contentinfo" class="clear-block">
         <?php if ($footer): ?>
         <?php print $footer ?>
@@ -81,10 +84,10 @@
         <?php $linknum = count($secondary_links); print '<div id="navigation-secondary" role="navigation" class="across-' . $linknum . '">'; $menu_name = variable_get('menu_secondary_links_source', 'secondary-links'); print menu_tree($menu_name); print '</div>'; ?>
         <?php endif; ?>
       </div>
-      <!-- End footer links --> 
+      <!-- /#footer --> 
     </div>
   </div>
-  <!-- Start Global Footer -->
+  <!-- /#container -->
   <div id="global-footer">
     <div class="wrapper clear-block">
       <div id="bottom-logo"> <a href="http://www.stanford.edu"><img src="<?php print base_path() . path_to_theme(); ?>/images/footer-stanford-logo.png" alt="Stanford University" /></a> </div>
@@ -98,11 +101,13 @@
             <li><a href="http://www.stanford.edu/site/copyright.html">Copyright Complaints</a></li>
           </ul>
         </div>
-        <p class="vcard">&copy; <span class="fn org">Stanford University</span>, <span class="adr"><span class="locality">Stanford</span>, <span class="region">California</span> <span class="postal-code">94305</span>. <span class="tel">(650) 723-2300</span></span></p></div>
+        <p class="vcard">&copy; <span class="fn org">Stanford University</span>, <span class="adr"><span class="locality">Stanford</span>, <span class="region">California</span> <span class="postal-code">94305</span>. <span class="tel">(650) 723-2300</span></span></p>
+      </div>
     </div>
   </div>
-  <!-- End Global Footer --> 
+  <!-- /#global-footer --> 
 </div>
+<!-- /#layout --> 
 <?php print $closure ?>
 </body>
 </html>

@@ -1,0 +1,7 @@
+Version 6.x-1.1 2011-11-30
+------------------------------
+by hyperboy: Add additional theme regions
+
+Version 6.x-1.0
+------------------------------
+by hyperboy: Initial Release
