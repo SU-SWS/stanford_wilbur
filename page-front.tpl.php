@@ -29,8 +29,7 @@ $banner_image_path = theme_get_setting('banner_image_path');
   </div>
   <!-- /#global-header -->
   <div id="container">
-    <div class="wrapper clear-block"> 
-      <!-- Start header -->
+    <div class="wrapper clear-block">
       <div id="header" role="banner" class="clear-block">
         <?php if ($logo): ?>
         <div id="logo"> <a href="<?php print $front_page; ?>" title="<?php print $site_name; ?>"><img src="<?php print $logo; ?>" alt="<?php print $site_name; ?>" /></a> </div>
