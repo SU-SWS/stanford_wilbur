@@ -7,7 +7,7 @@ The Stanford Wilbur Drupal theme is recommended for department and official grou
 
 -- REQUIREMENTS --
 
-The Stanford Wilbur Drupal theme is intended for Drupal versions 6 only; it will not work with Drupal 5 or below.
+The Stanford Wilbur Drupal theme is intended for Drupal versions 6 only; it will not work with Drupal 5 or below.  You must install the Stanford Framework base theme for Stanford Wilbur to operate properly.
 
 -- INSTALLATION --
 
