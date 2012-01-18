@@ -24,25 +24,6 @@ hr {background: #eae9e6; color: #eae9e6; border: none; height: 1px; margin: 0; p
 quote, code {margin: .5em 0;}
 img, a img {border: none; outline: none;}
 
-/* LISTS ------------------------------------------------------------*/
-
-dl {margin: 20px 0 0 0; padding: 0; line-height: 1.5em;}
-dl dt {margin: 0 0 0.2em 0;}
-dl dd {padding: 0 0 1em 0; margin: 0 0 1em 0;}
-
-ol {margin: .5em 0 1em 0; padding: 0; line-height: 1.5em;}
-ol li {margin: 0; padding: 0;}
-ul {margin: .5em 0 1em 0; padding: 0; line-height: 1.5em; list-style-position: inside;}
-ul li {margin: 0; padding: 0; list-style-image: url(../images/list-square.png);}
-
-.block ul {margin: 0 0 1em 0; padding: 0;}
-ul.menu {list-style-position: inside;}
-ul.links li {padding: 0; margin-right: 20px;}
-
-li.leaf {list-style-image: url(../images/list-square.png);}
-li.expanded {list-style-image: url(../images/list-expand.png);}
-li.collapsed {list-style-image: url(../images/list-collapse.png);}
-
 /* TABLES ------------------------------------------------------------*/
 
 table {margin: 0; width: 100%; border: 0px;}
@@ -58,59 +39,10 @@ td {padding: 1em 2em 1em 1em;}
 tr.odd td.active {background: #dfded9;}
 tr.even td.active {background: #d7d4ce;}
 
-/* FORMS ------------------------------------------------------------*/
-
-input {color: #494949; margin: 0 0;}
-textarea, select {color: #494949;}
-fieldset {background-color: #f2f1eb; border: 1px solid #eee3c1; margin: 20px 0; padding: 20px;}
-fieldset.collapsed {margin: 20px 0 0 0; padding: 0; background: none;}
-fieldset legend a {border: 0px;}
-fieldset legend {color: #333333;}
-
-.form-item {margin-bottom: 1em;}
-.form-item label {margin-bottom: 0.5em;}
-.form-submit {margin-bottom: 1em;}
-.description {margin-top: 0.5em;}
-
-/* DRUPAL ADMIN STYLES ------------------------------------------------------------*/
-
-.messages, div.error, div.warning {border: none; background: #d0efc1; margin-top: 20px; padding: 20px;}
-div.error {background: #f7cccc;}
-div.warning {background: #f6f6c4;}
-
-div.admin .left,
-div.admin .right {margin: 0; width: 47%;}
-
-#tabs-wrapper {margin-top: 20px;}
-ul.tabs.primary {border-bottom: 1px solid #bab19e; margin: 0px; padding: 7px 5px 6px 10px;}
-ul.tabs.primary li {margin: 0; padding: 7px 5px 7px 0;}
-ul.tabs.primary li a {background: #eae9e3; border: 1px solid #bab19e; margin: 0; padding: 7px 15px; border-bottom: none;}
-ul.tabs.primary li.active a {background: #fbfbf9;}
-ul.tabs.secondary {border-bottom: 1px solid #bab19e; margin: 0; padding: 10px 0;}
-ul.tabs.secondary li {border: none; margin: 0; padding: 5px 5px 10px 0;}
-ul.tabs.secondary li a {background: none; margin: 0; padding: 10px 12px;}
-ul.tabs.secondary li.active a {color: #8c1515; border-bottom: 3px solid #8c1515; padding-bottom: 9px;}
-
-.help {border-bottom: 1px solid #e9e6df; padding-bottom: 10px; margin-top: 20px;}
-.block-region {color: #000000;}
-
-.node {margin-top: 20px;}
-
-form#system-themes-form {overflow: auto;}
-
 /* GENERAL LAYOUT ------------------------------------------------------------*/
 #skipnav {position: absolute; left: -1000em; width: 20em; text-align: left;}
 img {max-width: 100%;}
 .wrapper {width: 980px; margin: auto;}
-
-#global-header {background-color: #8c1515; background-image: url(../images/header-bg.png); background-position: bottom center; background-repeat: no-repeat; color: #ffffff; padding: 10px 0 10px 0; width: 100%;}
-#top-logo {width: 198px; float: left;}
-#top-menu {float: right;}
-#top-menu a {color: #ffffff;}
-#top-menu ul {margin: 0; padding: 0; line-height: 1em;}
-#top-menu ul li {float: left; list-style: none; border-right: 1px dotted #d25c5c; margin: 0 0 0 1em; padding: 0 0 0 1em;}
-#top-menu ul li.last {border: none;}
-#top-menu h3 {display: none;}
 
 #container {width: 100%; background-color: #fbfbf9; line-height: 1.4em; padding-top: 20px;}
 
@@ -122,12 +54,10 @@ img {max-width: 100%;}
 #header #search {float: right; background-color: #f2f1eb; height: 26px; width: 214px; overflow: hidden; margin-top: 24px; padding: 5px; line-height: 0; -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px;}
 #header #search .search-item {float: left;}
 #header #search .form-text {border: none; color: #827252; height: 26px; width: 183px; margin: 0; padding: 0 0 0 5px;}
-#header #search .search-submit {border: none; height: 26px; width: 26px; background: url(../images/searchbutton.png) center center no-repeat; cursor: pointer;}
-#header #search label {position: absolute; left: -1000em; width: 20em; text-align: left;}
+#header #search .search-submit {border: none; height: 26px; width: 26px;}
 
-#navigation {margin-bottom: 35px;}
 #navigation ul li {margin: 0; padding: 0;}
-#navigation ul li a {font-size: 1.166em; color: #8c1515; padding: 6px 10px; margin: 0; text-transform: uppercase;}
+#navigation ul li a {color: #8c1515; padding: 6px 10px; margin: 0; text-transform: uppercase;}
 #navigation ul li a:hover {background: #f2f1eb; -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px;}
 #navigation ul li a.active {background: #f2f1eb; -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px;}
 
@@ -142,20 +72,6 @@ img {max-width: 100%;}
 #navigation-secondary ul li ul li {border: none; clear: both;}
 #navigation-secondary ul li ul li.leaf {padding-top: 0;}
 #navigation-secondary ul li ul li a {color: #827252; font-size: 1em; font-weight: normal; line-height: 1em; text-transform: none;}
-#navigation-secondary.across-1 ul li {width: 940px;}
-#navigation-secondary.across-2 ul li {width: 460px;}
-#navigation-secondary.across-3 ul li {width: 300px;}
-#navigation-secondary.across-4 ul li {width: 220px;}
-#navigation-secondary.across-5 ul li {width: 172px;}
-#navigation-secondary.across-6 ul li {width: 140px;}
-
-#global-footer {background-color: #8c1515; background-image: url(../images/footer-bg.png); background-position: top center; background-repeat: no-repeat; color: #e3dfd5; font-size: 0.9em; line-height: 1em; padding: 30px 0 60px 0; width: 100%;}
-#bottom-logo {float: left; padding: 0 20px 0 20px; width: 119px;}
-#bottom-text {float: left;}
-#bottom-menu {margin: 0 0 0.4em 0;}
-#bottom-menu a {color: #e3dfd5;}
-#bottom-menu ul {margin: 0; padding: 0; line-height: 1em;}
-#bottom-menu ul li {float: left; list-style: none; margin: 0 1em 0 0; padding: 0 1em 0 0;}
 
 /* Front page */
 body.front #content {margin: 0px; padding: 0px;}
@@ -207,33 +123,6 @@ body.node-type-landing #landing-region3 .block.blocknum2.block-last {width: 27.6
 #main .content a {border-bottom: 1px dotted #827252;}
 #sidebar-left {position: relative; float: left;}
 #sidebar-right {position: relative; float: left;}
-
-/* Col-5: Default */
-.col-5 #sidebar-left {left: -510px; width: 180px;}
-.col-5 #sidebar-right {left: 60px; width: 190px;}
-.col-5.sidebars #main {left: 210px; width: 510px;}
-.col-5.sidebar-left #main {left: 210px; width: 730px;}
-.col-5.sidebar-left #sidebar-left {left: -730px;}
-.col-5.sidebar-right #main {width: 720px;}
-.col-5.sidebar-right #sidebar-right {left: 30px;}
-
-/* Col-4 */
-.col-4 #sidebar-left {left: -470px; width: 220px;}
-.col-4 #sidebar-right {left: 60px; width: 190px;}
-.col-4.sidebars #main {left: 250px; width: 470px;}
-.col-4.sidebar-left #main {left: 250px; width: 690px;}
-.col-4.sidebar-left #sidebar-left {left: -690px;}
-.col-4.sidebar-right #main {width: 720px;}
-.col-4.sidebar-right #sidebar-right {left: 30px;}
-
-/* No Nav */
-.no-nav #sidebar-left {left: -420px; width: 180px;}
-.no-nav #sidebar-right {left: 60px; width: 280px;}
-.no-nav.sidebars #main {left: 210px; width: 420px;}
-.no-nav.sidebar-left #main {left: 210px; width: 730px;}
-.no-nav.sidebar-left #sidebar-left {left: -730px;}
-.no-nav.sidebar-right #main {width: 630px;}
-.no-nav.sidebar-right #sidebar-right {left: 30px;}
 
 /* BLOCK STYLES ------------------------------------------------------------*/
 
@@ -398,26 +287,3 @@ body.dark.node-type-landing #landing-region4 .block {border: none; background: #
 .dark .article-box.style1 {border-color: #43423e;}
 .dark .article-box.style2 {border-color: #43423e;}
 .dark .article-box.style3 {border-color: #43423e;}
-
-/* HELPER CLASSES ------------------------------------------------------------*/
-
-.red {color: #8c1515;}
-.sand {color: #827252;}
-.left {float: left; margin-right: 20px;}
-.right {float: right; margin-left: 20px;}
-.lined {border-bottom: 4px solid #d2d2cf; padding: 0 0 1px 0;}
-.img-description {font-size: 0.833em;}
-.spacer {margin-top: 30px;}
-.clear-block {} /* Already defined by drupal */
-
-.article-box {margin-top: 30px;}
-.article-box.last {margin-left: 0; margin-right: 0;}
-.article-box.style1 {border: 1px solid #e9e6df; padding: 20px;}
-.article-box.style2 {border-top: 1px solid #e9e6df; padding-top: 20px;}
-.article-box.style3 {border-top: 1px solid #e9e6df; border-bottom: 1px solid #e9e6df; padding: 20px 0;}
-
-.i-video {border: none; background: url(../images/icons-video.png) left center no-repeat; padding-left: 22px;}
-.i-image {border: none; background: url(../images/icons-image.png) left center no-repeat; padding-left: 22px;}
-.i-slide {border: none; background: url(../images/icons-slides.png) left center no-repeat; padding-left: 22px;}
-.i-audio {border: none; background: url(../images/icons-audio.png) left center no-repeat; padding-left: 22px;}
-.i-text {border: none; background: url(../images/icons-text.png) left center no-repeat; padding-left: 22px;}
