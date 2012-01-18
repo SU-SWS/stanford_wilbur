@@ -2,7 +2,7 @@ name = Stanford Wilbur
 base theme = stanford_framework
 description = Tableless, multi-column theme provided by <a href="http://webservices.stanford.edu">Stanford Web Services</a>. Recommended for department and official group sites.
 core = 6.x
-version = 6.x-1.1
+version = 6.x-1.2
 engine = phptemplate
 
 stylesheets[all][] = css/stanford_wilbur.css
