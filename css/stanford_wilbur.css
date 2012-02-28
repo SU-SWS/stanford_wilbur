@@ -1,5 +1,6 @@
 /* GENERAL LAYOUT ------------------------------------------------------------*/
 #header #site h1 {font-size: 3em; line-height: 1em; font-weight: normal; text-transform: uppercase; font-stretch: condensed;}
+#header #site #slogan {text-transform: uppercase;}
 
 #navigation-primary ul li {margin: 0; padding: 0;}
 #navigation-primary ul li a {font-size: 1.166em; color: #8c1515; padding: 6px 10px; margin: 0; text-transform: uppercase;}
