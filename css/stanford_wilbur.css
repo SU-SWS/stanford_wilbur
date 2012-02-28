@@ -14,6 +14,7 @@ h1, h2, h3, h4, h5, h6 {font-family: Arial, Helvetica, sans-serif; font-weight: 
 #navigation-primary ul li a {color: #8c1515; text-transform: uppercase;}
 #navigation-primary ul li a:hover {background: #f2f1eb;}
 #navigation-primary ul li a.active {background: #f2f1eb;}
+#navigation-primary ul li ul li a {text-transform: none;}
 
 #navigation-secondary ul li {border-top: 1px solid #f2f1eb; float: left; margin: 0 20px 0 0; list-style: none; padding-top: 3px;}
 #navigation-secondary ul li.last {margin: 0;} 
