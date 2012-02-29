@@ -19,25 +19,6 @@ hr {background: #eae9e6; color: #eae9e6; border: none; height: 1px; margin: 0; p
 quote, code {margin: .5em 0;}
 img, a img {border: none; outline: none;}
 
-/* LISTS ------------------------------------------------------------*/
-
-dl {margin: 20px 0 0 0; padding: 0; line-height: 1.5em;}
-dl dt {margin: 0 0 0.2em 0;}
-dl dd {padding: 0 0 1em 0; margin: 0 0 1em 0;}
-
-ol {margin: .5em 0 1em 0; padding: 0; line-height: 1.5em;}
-ol li {margin: 0; padding: 0;}
-ul {margin: .5em 0 1em 0; padding: 0; line-height: 1.5em; list-style-position: inside;}
-ul li {margin: 0; padding: 0; list-style-image: url(../images/list-square.png);}
-
-.block ul {margin: 0 0 1em 0; padding: 0;}
-ul.menu {list-style-position: inside;}
-ul.links li {padding: 0; margin-right: 20px;}
-
-li.leaf {list-style-image: url(../images/list-square.png);}
-li.expanded {list-style-image: url(../images/list-expand.png);}
-li.collapsed {list-style-image: url(../images/list-collapse.png);}
-
 /* TABLES ------------------------------------------------------------*/
 
 table {margin: 0; width: 100%; border: 0px;}
