@@ -27,7 +27,7 @@ dl dd {padding: 0 0 1em 0; margin: 0 0 1em 0;}
 
 ol {margin: .5em 0 1em 0; padding: 0; line-height: 1.5em;}
 ol li {margin: 0; padding: 0;}
-ul {margin: .5em 0 1em 0; padding: 0; line-height: 1.5em; list-style-position: inside;}
+ul {margin: .5em 0 1em 0; padding: 0; line-height: 1.5em;}
 ul li {margin: 0; padding: 0; list-style-image: url(../images/list-square.png);}
 
 .block ul {margin: 0 0 1em 0; padding: 0;}
@@ -52,6 +52,40 @@ tr.even {background: #e9e6df;}
 td {padding: 1em 2em 1em 1em;}
 tr.odd td.active {background: #dfded9;}
 tr.even td.active {background: #d7d4ce;}
+
+/* FORMS ------------------------------------------------------------*/
+
+input {color: #494949; margin: 0 0;}
+textarea, select {color: #494949;}
+fieldset {background-color: #f2f1eb; border: 1px solid #eee3c1; margin: 20px 0; padding: 20px;}
+fieldset.collapsed {margin: 20px 0 0 0; padding: 0; background: none;}
+fieldset legend a {border: 0px;}
+fieldset legend {color: #333333;}
+
+.form-item {margin-bottom: 1em;}
+.form-item label {margin-bottom: 0.5em;}
+.form-submit {margin-bottom: 1em;}
+.description {margin-top: 0.5em;}
+
+/* DRUPAL ADMIN STYLES ------------------------------------------------------------*/
+
+.messages, div.error, div.warning {border: none; background: #d0efc1; margin-top: 20px; padding: 20px;}
+div.error {background: #f7cccc;}
+div.warning {background: #f6f6c4;}
+
+ul.tabs.primary {border-bottom: 1px solid #bab19e;}
+ul.tabs.primary li a {background: #eae9e3; border: 1px solid #bab19e;}
+ul.tabs.primary li a:hover {border: 1px solid #bab19e;}
+ul.tabs.primary li.active a {background: #fbfbf9;}
+ul.tabs.secondary {border-bottom: 1px solid #bab19e; margin: 0; padding: 10px 0;}
+ul.tabs.secondary li {border: none; margin: 0; padding: 5px 5px 10px 0;}
+ul.tabs.secondary li a {background: none; margin: 0; padding: 10px 12px;}
+ul.tabs.secondary li.active a {color: #8c1515; border-bottom: 3px solid #8c1515; padding-bottom: 9px;}
+
+.help {border-bottom: 1px solid #e9e6df; padding-bottom: 10px; margin-top: 20px;}
+.block-region {color: #000000;}
+.node {margin-top: 20px;}
+form#system-themes-form {overflow: auto;}
 
 /* GENERAL LAYOUT ------------------------------------------------------------*/
 #header #site h1 {font-size: 3em; line-height: 1em; font-weight: normal; text-transform: uppercase; font-stretch: condensed;}
