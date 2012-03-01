@@ -1,7 +1,7 @@
 /* TYPOGRAPHY ------------------------------------------------------------*/
 
-h1, h2, h3, h4, h5, h6 {font-family: Arial, Helvetica, sans-serif; font-weight: normal; line-height: 1em; margin: 0; padding: 0;}
-h1 {font-size: 3em; text-transform: uppercase;}
+h1, h2, h3, h4, h5, h6 {font-family: Arial, Helvetica, sans-serif; font-weight: normal; color: #3f3c30;}
+h1 {font-size: 2.8em; padding: 0.5em 0; text-transform: uppercase;}
 h2 {font-size: 2em; margin: 0 0 1em 0; color: #820000; text-transform: uppercase;}
 h3 {font-size: 1em; margin: 0 0 1em 0; color: #820000; text-transform: uppercase; font-weight: bold;}
 h4 {font-size: 1em; margin: 0 0 0.5em 0; text-transform: uppercase;}
@@ -57,7 +57,7 @@ div.warning {background: #f6f6c4;}
 ul.tabs.primary {border-bottom: 1px solid #bab19e;}
 ul.tabs.primary li a {background: #eae9e3; border: 1px solid #bab19e;}
 ul.tabs.primary li a:hover {border: 1px solid #bab19e;}
-ul.tabs.primary li.active a {background: #fbfbf9;}
+ul.tabs.primary li.active a {background: #fbfbf9; border-bottom: 1px solid #fbfbf9;}
 ul.tabs.secondary {border-bottom: 1px solid #bab19e; margin: 0; padding: 10px 0;}
 ul.tabs.secondary li {border: none; margin: 0; padding: 5px 5px 10px 0;}
 ul.tabs.secondary li a {background: none; margin: 0; padding: 10px 12px;}
@@ -69,7 +69,7 @@ ul.tabs.secondary li.active a {color: #8c1515; border-bottom: 3px solid #8c1515;
 form#system-themes-form {overflow: auto;}
 
 /* GENERAL LAYOUT ------------------------------------------------------------*/
-#header #site h1 {font-family: Arial Narrow, Arial, Helvetica, sans-serif; font-size: 3em; line-height: 1em; font-weight: normal; text-transform: uppercase; font-stretch: condensed;}
+#header #site h1 {font-family: Arial Narrow, Arial, Helvetica, sans-serif; padding: 0; font-size: 3em; line-height: 1em; font-weight: normal; text-transform: uppercase; font-stretch: condensed;}
 #header #site #slogan {text-transform: uppercase;}
 
 #header #search {background-color: #f2f1eb; height: 26px; overflow: hidden; padding: 4px 5px 5px 5px; line-height: 0; -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px;}
