@@ -55,7 +55,7 @@ div.error {background: #f7cccc;}
 div.warning {background: #f6f6c4;}
 
 ul.tabs.primary {border-bottom: 1px solid #bab19e;}
-ul.tabs.primary li a {background: #eae9e3; border: 1px solid #bab19e;}
+ul.tabs.primary li a {background: #eae9e3; border: 1px solid #bab19e; border-bottom: 1px solid #eae9e3;}
 ul.tabs.primary li a:hover {border: 1px solid #bab19e;}
 ul.tabs.primary li.active a {background: #fbfbf9; border-bottom: 1px solid #fbfbf9;}
 ul.tabs.secondary {border-bottom: 1px solid #bab19e; margin: 0; padding: 10px 0;}
@@ -94,10 +94,55 @@ form#system-themes-form {overflow: auto;}
 
 #main-content img {padding: 0 0 1px 0; border-bottom: 3px solid #c5beae;}
 
+#page-content .block-user {font-weight: bold; text-transform: uppercase; border-top: 1px solid #e9e6df; border-bottom: 1px solid #e9e6df; padding-bottom: 15px;}
+#page-content .block-user h2 {border: none; font-size: 1em; font-weight: bold; margin: 0; padding: 15px 0 15px 10px;}
+#page-content .block-user li {list-style-type: none; margin: 0px; padding: 0px;}
+#page-content .block-user ul.menu {margin: 0; padding: 0;}
+#page-content .block-user ul.menu ul {padding-left: 7px; margin-top: 0px;}
+#page-content .block-user ul.menu li {border-top: 1px solid #e9e6df; margin: 0; padding: 15px 0 15px 10px;}
+#page-content .block-user ul.menu ul li {padding: 6px 0 6px 10px; border: none;}
+#page-content .block-user ul.menu a.active {color: #000000;}
+
+/* First sidebar Menu Blocks */
+#sidebar-first .block-book {font-size: 0.833em; font-weight: bold; text-transform: uppercase; border-top: 1px solid #e9e6df; border-bottom: 1px solid #e9e6df;}
+#sidebar-first .block-book h2 {border: none; font-size: 1em; font-weight: bold; margin: 0; padding: 15px 0 15px 10px;}
+#sidebar-first .block-book ul.menu {margin: 0; padding: 0;}
+#sidebar-first .block-book ul.menu ul {padding-left: 7px; margin-top: 6px;}
+#sidebar-first .block-book ul.menu li {border-top: 1px solid #e9e6df; margin: 0; padding: 15px 0 15px 10px;}
+#sidebar-first .block-book ul.menu ul li {padding: 6px 0 6px 10px; border: none;}
+#sidebar-first .block-book ul.menu a.active {color: #000000;}
+
+#sidebar-first .block-menu {font-size: 0.833em; font-weight: bold; text-transform: uppercase; border-top: 1px solid #e9e6df; border-bottom: 1px solid #e9e6df;}
+#sidebar-first .block-menu h2 {border: none; font-size: 1em; font-weight: bold; margin: 0; padding: 15px 0 15px 10px;}
+#sidebar-first .block-menu ul.menu {margin: 0; padding: 0; list-style: none;}
+#sidebar-first .block-menu ul.menu li {border-top: 1px solid #e9e6df; margin: 0; padding: 15px 0 15px 10px; list-style: none;}
+#sidebar-first .block-menu ul.menu li ul {margin: 15px 0 0 0;}
+#sidebar-first .block-menu ul.menu li ul li.last {margin: 0; padding: 15px 0 0px 10px;}
+#sidebar-first .block-menu ul.menu a.active {color: #000000;}
+
+/* Second sidebar Menu Blocks */
+#sidebar-second .block-book {font-size: 0.833em; font-weight: bold; text-transform: uppercase;}
+#sidebar-second .block-book h2 {background: #bab19e; border: none; color: #ffffff; font-size: 1em; line-height: 3em; font-weight: bold; margin: 0; padding: 0 0 0 15px; -moz-border-radius-topleft: 5px; -moz-border-radius-topright: 5px; -webkit-border-radius: 5px 5px 0px 0px; border-radius: 5px 5px 0px 0px;}
+#sidebar-second .block-book ul.menu {margin: 0; padding: 0;}
+#sidebar-second .block-book ul.menu ul {padding-left: 7px; margin-top: 6px;}
+#sidebar-second .block-book ul.menu li {background: #f2f1eb; border-top: 1px solid #fbfbf9; margin: 0; padding: 12px 5px 12px 10px;}
+#sidebar-second .block-book ul.menu ul li {padding: 6px 5px 6px 10px; border: none;}
+#sidebar-second .block-book a.active {color: #000000;}
+
+#sidebar-second .block-menu {font-size: 0.833em; font-weight: bold; text-transform: uppercase;}
+#sidebar-second .block-menu h2 {background: #bab19e; border: none; color: #ffffff; font-size: 1em; line-height: 3em; font-weight: bold; margin: 0; padding: 0 0 0 15px; -moz-border-radius-topleft: 5px; -moz-border-radius-topright: 5px; -webkit-border-radius: 5px 5px 0px 0px; border-radius: 5px 5px 0px 0px;}
+#sidebar-second .block-menu ul.menu {margin: 0; padding: 0; list-style: none;}
+#sidebar-second .block-menu ul.menu li {background: #f2f1eb; border-top: 1px solid #fbfbf9; margin: 0; padding: 12px 5px 12px 15px; list-style: none;}
+#sidebar-second .block-menu ul.menu li ul {margin: 15px 0 0 0;}
+#sidebar-second .block-menu ul.menu li ul li.last {margin: 0; padding: 15px 0 0px 10px;}
+#sidebar-second .block-menu a.active {color: #000000;}
+
 /* CONTENT -------------------------------------------------------------------*/
 h2 {margin: 0 0 1em 0; font-size: 1.2em; line-height: 1em; color: #820000; text-transform: uppercase; font-weight: normal;}
 #page-content {background-color: #fbfbf9;}
 .well {border: none; box-shadow:none; border-radius: 0px; border-bottom: 1px solid #c9c9c7; background: #f2f1eb; padding: 20px;}
+#sidebar-first .well {border: none; box-shadow:none; border-radius: 0px; border-bottom: 0px solid #c9c9c7; background: none; padding: 0px;}
+.block {margin-bottom: 1em;}
 
 /* HELPER CLASSES ------------------------------------------------------------*/
 .red {color: #8c1515;}
