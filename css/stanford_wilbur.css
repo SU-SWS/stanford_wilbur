@@ -142,7 +142,6 @@ h2 {margin: 0 0 1em 0; font-size: 1.2em; line-height: 1em; color: #820000; text-
 #page-content {background-color: #fbfbf9;}
 .well {border: none; box-shadow:none; border-radius: 0px; border-bottom: 1px solid #c9c9c7; background: #f2f1eb; padding: 20px;}
 #sidebar-first .well {border: none; box-shadow:none; border-radius: 0px; border-bottom: 0px solid #c9c9c7; background: none; padding: 0px;}
-.block {margin-bottom: 1em;}
 
 /* HELPER CLASSES ------------------------------------------------------------*/
 .red {color: #8c1515;}
