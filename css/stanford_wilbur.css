@@ -72,9 +72,9 @@ form#system-themes-form {overflow: auto;}
 #header #site h1 {font-size: 3em; line-height: 1em; font-weight: normal; text-transform: uppercase; font-stretch: condensed;}
 #header #site #slogan {text-transform: uppercase;}
 
-#header #search {background-color: #f2f1eb; height: 26px; overflow: hidden; margin-top: 24px; padding: 4px 5px 5px 5px; line-height: 0; -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px;}
+#header #search {background-color: #f2f1eb; height: 26px; overflow: hidden; padding: 4px 5px 5px 5px; line-height: 0; -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px;}
 #header #search .search-item {float: left;}
-#header #search .form-text {border: none; color: #827252; height: 26px; width: 183px; margin: 0; padding: 0 0 0 5px;}
+#header #search .form-text {border: none; color: #827252; height: 26px; margin: 0; padding: 0 0 0 5px;}
 #header #search .form-submit {margin: 1px 0 0 -20px; padding: 0px; text-indent: -9999px; border: none; box-shadow: none; text-shadow: none; height: 25px; width: 25px; background: url(../images/searchbutton.png) center center no-repeat; cursor: pointer;}
 #header #search label {position: absolute; left: -1000em; width: 20em; text-align: left;}
 
