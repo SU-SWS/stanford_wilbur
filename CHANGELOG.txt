@@ -1,4 +1,4 @@
-Version 6.x-1.2 2012-01-18
+Version 6.x-1.2 2012-03-02
 ------------------------------
 by hyperboy: Convert to sub-theme
 
