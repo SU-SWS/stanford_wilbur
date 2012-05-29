@@ -144,11 +144,14 @@ form#system-themes-form {overflow: auto;}
 /* HELPER CLASSES ------------------------------------------------------------*/
 .red {color: #8c1515;}
 .sand {color: #827252;}
-.left {float: left; margin-right: 20px;}
-.right {float: right; margin-left: 20px;}
+.left {float: left; margin-bottom: 20px; margin-right: 20px;}
+.right {float: right; margin-bottom: 20px; margin-left: 20px;}
 .lined {border-bottom: 4px solid #d2d2cf; padding: 0 0 1px 0;}
 .img-description {font-size: 0.833em;}
 .spacer {margin-top: 30px;}
+.clear-right {clear: right;}
+.clear-left {clear: left;}
+.clear-both {clear: both;}
 .clear-block {} /* Already defined by drupal */
 
 .article-box {margin-top: 30px;}
