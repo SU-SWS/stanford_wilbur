@@ -12,7 +12,7 @@ The Stanford Wilbur Drupal theme is intended for Drupal versions 7 only; it will
 -- INSTALLATION --
 
 Download and extract the theme package in your sites/all/themes directory.
-As an admin, go to Administer > Appearance > Enabled Themes to enable the theme.
+As an admin, go to Administer > Appearance > Themes to enable the theme.
 More detailed information on installing themes here: http://drupal.org/getting-started/install-contrib/themes
 
 -- TROUBLESHOOTING --
