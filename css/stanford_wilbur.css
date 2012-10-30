@@ -1,180 +1,74 @@
-/* TYPOGRAPHY ------------------------------------------------------------*/
+/* THEME OPTIONS ************************** */
 
-body {background-color: #fbfbf9;}
-h1, h2, h3, h4, h5, h6 {font-family: Arial, Helvetica, sans-serif; font-weight: normal; color: #3f3c30;}
-h1 {font-size: 1.8em; padding: 0.5em 0; text-transform: uppercase;}
-h2 {font-size: 1.2em; margin: 0 0 1em 0; line-height: 1em; color: #820000; text-transform: uppercase; font-weight: normal;}
-h3 {font-size: 1em; margin: 0 0 1em 0; color: #820000; text-transform: uppercase; font-weight: bold;}
-h4 {font-size: 1em; margin: 0 0 0.5em 0; text-transform: uppercase;}
-h5 {font-size: 0.833em; font-weight: bold; margin: 0 0 0.5em 0;}
-h6 {font-size: 0.833em; font-weight: bold; margin: 0 0 0.5em 0;}
+/* GLOBAL ********************************* */
+/* ----- Body ------------------------ */
+/* ----- Custom Fonts ---------------- */
+/* ----- Text ------------------------ */
+/* ----- Links ----------------------- */
+/* ----- Lists ----------------------- */
+/* ----- Tables ---------------------- */
+/* ----- Forms ----------------------- */
 
-a {text-decoration: none; color: #827252;}
-a:focus {border: 0px;}
-a:hover {color: #000000;}
+/* STANFORD BRAND BARS ******************** */
+/* ----- Global Header --------------- */
+/* ----- Global Footer --------------- */
 
-p {font-size: 1em; margin: 0 0 1em 0;}
-blockquote {margin: 1.25em; padding: 1.25em 1.25em 0 1.25em;}
-em {padding: 0 3px 0 0;}
-hr {background: #eae9e6; color: #eae9e6; border: none; height: 1px; margin: 0; padding: 0;}
-quote, code {margin: .5em 0;}
-img, a img {border: none; outline: none;}
+/* HEADER ********************************* */
+/* ----- Header Region --------------- */
+/* ----- Search Box ------------------ */
+/* ----- Logo ------------------------ */
+/* ----- Site Title and Slogan ------- */
 
-/* TABLES ------------------------------------------------------------*/
+/* NAVIGATION ***************************** */
+/* ----- Main Navigation ------------- */
+/* ----- Secondary Navigation -------- */
+/* ----- Breadcrumbs ----------------- */
+/* ----- First Sidebar Menu Blocks --- */
+/* ----- Second Sidebar Menu Blocks -- */
+/* ----- Admin Menu ------------------ */
 
-table {margin: 0; width: 100%; border: 0px;}
-thead {background: #8c1515;}
-thead th {color: #ffffff; border: 0px; font-size: 0.833em; font-weight: bold; text-transform: uppercase; padding: 1em 2em 1em 1em;}
-thead th a:link, thead th a:visited {color: #f9d37c;}
-thead th.active a img {padding-left: 5px;}
-tbody {border: 0px;}
-tr.even, tr.odd {border: none; padding: 0;}
-tr.odd {background: #f2f1eb;}
-tr.even {background: #e9e6df;}
-td {padding: 1em 2em 1em 1em;}
-tr.odd td.active {background: #dfded9;}
-tr.even td.active {background: #d7d4ce;}
+/* SIDEBARS ******************************* */
 
-/* FORMS ------------------------------------------------------------*/
+/* FOOTER ********************************* */
+/* ----- Fat Footer ------------------ */
 
-input {color: #494949; margin: 0 0;}
-textarea, select {color: #494949;}
-fieldset {background-color: #f2f1eb; border: 1px solid #eee3c1; margin: 20px 0; padding: 20px;}
-fieldset.collapsed {margin: 20px 0 0 0; padding: 0; background: none;}
-fieldset legend a {border: 0px;}
-fieldset legend {color: #333333;}
+/* CONTENT ******************************** */
 
-.form-item {margin-bottom: 1em;}
-.form-item label {margin-bottom: 0.5em;}
-.form-submit {margin-bottom: 1em;}
-.description {margin-top: 0.5em;}
+/* VIEWS ********************************** */
+/* ----- Search Results -------------- */
 
-/* DRUPAL ADMIN STYLES ------------------------------------------------------------*/
+/* CONTAINERS ***************************** */
+/* ----- Blocks ---------------------- */
+/* ----- Wells ----------------------- */
+/* ----- Callouts and Blockquotes ---- */
+/* ----- Pullquote Text -------------- */
 
-.messages, div.error, div.warning {border: none; background: #d0efc1; margin-top: 20px; padding: 20px;}
-div.error {background: #f7cccc;}
-div.warning {background: #f6f6c4;}
+/* POSTCARD LAYOUTS ********************** */
 
-ul.tabs.primary {border-bottom: 1px solid #bab19e;}
-ul.tabs.primary li a {background: #eae9e3; border: 1px solid #bab19e; border-bottom: 1px solid #eae9e3;}
-ul.tabs.primary li a:hover {border: 1px solid #bab19e;}
-ul.tabs.primary li.active a {background: #fbfbf9; border-bottom: 1px solid #fbfbf9;}
-ul.tabs.secondary {border-bottom: 1px solid #bab19e; margin: 0; padding: 10px 0;}
-ul.tabs.secondary li {border: none; margin: 0; padding: 5px 5px 10px 0;}
-ul.tabs.secondary li a {background: none; margin: 0; padding: 10px 12px;}
-ul.tabs.secondary li.active a {color: #8c1515; border-bottom: 3px solid #8c1515; padding-bottom: 9px;}
+/* IMAGES ******************************** */
 
-.help {border-bottom: 1px solid #e9e6df; padding-bottom: 10px; margin-top: 20px;}
-.block-region {color: #000000;}
-form#system-themes-form {overflow: auto;}
+/* ICONS ********************************* */
 
-/* GENERAL LAYOUT ------------------------------------------------------------*/
-#header #site #name {font-family: Arial Narrow, Arial, Helvetica, sans-serif; padding: 0; font-size: 3em; line-height: 1em; font-weight: normal; text-transform: uppercase; font-stretch: condensed;}
-#header #site #slogan {text-transform: uppercase;}
+/* HELPER CLASSES ************************ */
+/* ----- Positioning ----------------- */
+/* ----- Sizing ---------------------- */
 
-#header #search {background-color: #f2f1eb; height: 26px; overflow: hidden; padding: 4px 5px 5px 5px; line-height: 0; -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px;}
-#header #search .search-item {float: left;}
-#header #search .form-text {border: none; color: #827252; height: 26px; margin: 0; padding: 0 0 0 5px;}
-#header #search .form-submit {margin: 1px 0 0 -20px; padding: 0px; text-indent: -9999px; border: none; box-shadow: none; text-shadow: none; height: 25px; width: 25px; background: url(../images/searchbutton.png) center center no-repeat; cursor: pointer;}
-#header #search label {position: absolute; left: -1000em; width: 20em; text-align: left;}
-#header .container {padding: 0px 2% 0px 2%;}
+/* GENERAL OVERRIDES ********************* */
+/* ----- Bootstrap Overrides --------- */
+/* ----- Field Collection Overrides -- */
+/* ----- Field Label Overrides ------- */
 
-#page-content .container {padding: 0px 2% 0px 2%;}
+/* STANFORD FEATURES OVERRIDES *********** */
+/* ----- Views Slideshow ------------- */
+/* ----- Banner Image Slideshow ------ */
+/* ----- Stanford Events Importer ---- */
+/* ----- Stanford Events Views ------- */
+/* ----- Stanford Courses ------------ */
 
-#footer {width: 100%; margin: 0px auto; padding: 30px 0px 60px 0px;}
-#footer .container {padding: 0px 2% 0px 2%;}
+/* ADMINISTRATION ************************ */
+/* ----- Admin ----------------------- */
+/* ----- User Block ------------------ */
 
-#navigation-primary ul li a {color: #8c1515; text-transform: uppercase;}
-#navigation-primary ul li a:hover {background: #f2f1eb;}
-#navigation-primary ul li a.active {background: #f2f1eb;}
-#navigation-primary ul li ul li a {text-transform: none;}
-
-#navigation-secondary ul li {border-top: 1px solid #f2f1eb; float: left; margin: 0 20px 0 0; list-style: none; padding-top: 3px;}
-#navigation-secondary ul li.last {margin: 0;} 
-#navigation-secondary ul li.expanded {padding-right: 0;}
-#navigation-secondary ul li.leaf {padding-right: 0;}
-#navigation-secondary ul li a {color: #8c1515; font-size: 0.8333em; font-weight: bold; line-height: 2em; text-transform: uppercase;}
-#navigation-secondary ul li ul li {border: none; clear: both;}
-#navigation-secondary ul li ul li.leaf {padding-top: 0;}
-#navigation-secondary ul li ul li a {color: #827252; font-size: 1em; font-weight: normal; line-height: 1em; text-transform: none;}
-
-#main-content img {padding: 0 0 1px 0; border-bottom: 3px solid #c5beae;}
-
-#page-content .block-user {font-weight: bold; text-transform: uppercase; border-top: 1px solid #e9e6df; border-bottom: 1px solid #e9e6df; padding-bottom: 15px;}
-#page-content .block-user h2 {border: none; font-size: 1em; font-weight: bold; margin: 0; padding: 15px 0 15px 10px;}
-#page-content .block-user li {list-style-type: none; margin: 0px; padding: 0px;}
-#page-content .block-user ul.menu {margin: 0; padding: 0;}
-#page-content .block-user ul.menu ul {padding-left: 7px; margin-top: 0px;}
-#page-content .block-user ul.menu li {border-top: 1px solid #e9e6df; margin: 0; padding: 15px 0 15px 10px;}
-#page-content .block-user ul.menu ul li {padding: 6px 0 6px 10px; border: none;}
-#page-content .block-user ul.menu a.active {color: #000000;}
-
-/* First sidebar Menu Blocks */
-#sidebar-first .block-book {font-size: 0.833em; font-weight: bold; text-transform: uppercase; border-top: 1px solid #e9e6df; border-bottom: 1px solid #e9e6df;}
-#sidebar-first .block-book h2 {border: none; font-size: 1em; font-weight: bold; margin: 0; padding: 15px 0 15px 10px;}
-#sidebar-first .block-book ul.menu {margin: 0; padding: 0;}
-#sidebar-first .block-book ul.menu ul {padding-left: 7px; margin-top: 6px;}
-#sidebar-first .block-book ul.menu li {border-top: 1px solid #e9e6df; margin: 0; padding: 15px 0 15px 10px;}
-#sidebar-first .block-book ul.menu ul li {padding: 6px 0 6px 10px; border: none;}
-#sidebar-first .block-book ul.menu a.active {color: #000000;}
-
-#sidebar-first .block-menu {font-size: 0.833em; font-weight: bold; text-transform: uppercase; border-top: 1px solid #e9e6df; border-bottom: 1px solid #e9e6df;}
-#sidebar-first .block-menu h2 {border: none; font-size: 1em; font-weight: bold; margin: 0; padding: 15px 0 15px 10px;}
-#sidebar-first .block-menu ul.menu {margin: 0; padding: 0; list-style: none;}
-#sidebar-first .block-menu ul.menu li {border-top: 1px solid #e9e6df; margin: 0; padding: 15px 0 15px 10px; list-style: none;}
-#sidebar-first .block-menu ul.menu li ul {margin: 15px 0 0 0;}
-#sidebar-first .block-menu ul.menu li ul li.last {margin: 0; padding: 15px 0 0px 10px;}
-#sidebar-first .block-menu ul.menu a.active {color: #000000;}
-
-/* Second sidebar Menu Blocks */
-#sidebar-second .block-book {font-size: 0.833em; font-weight: bold; text-transform: uppercase;}
-#sidebar-second .block-book h2 {background: #bab19e; border: none; color: #ffffff; font-size: 1em; line-height: 3em; font-weight: bold; margin: 0; padding: 0 0 0 15px; -moz-border-radius-topleft: 5px; -moz-border-radius-topright: 5px; -webkit-border-radius: 5px 5px 0px 0px; border-radius: 5px 5px 0px 0px;}
-#sidebar-second .block-book ul.menu {margin: 0; padding: 0;}
-#sidebar-second .block-book ul.menu ul {padding-left: 7px; margin-top: 6px;}
-#sidebar-second .block-book ul.menu li {background: #f2f1eb; border-top: 1px solid #fbfbf9; margin: 0; padding: 12px 5px 12px 10px;}
-#sidebar-second .block-book ul.menu ul li {padding: 6px 5px 6px 10px; border: none;}
-#sidebar-second .block-book a.active {color: #000000;}
-
-#sidebar-second .block-menu {font-size: 0.833em; font-weight: bold; text-transform: uppercase;}
-#sidebar-second .block-menu h2 {background: #bab19e; border: none; color: #ffffff; font-size: 1em; line-height: 3em; font-weight: bold; margin: 0; padding: 0 0 0 15px; -moz-border-radius-topleft: 5px; -moz-border-radius-topright: 5px; -webkit-border-radius: 5px 5px 0px 0px; border-radius: 5px 5px 0px 0px;}
-#sidebar-second .block-menu ul.menu {margin: 0; padding: 0; list-style: none;}
-#sidebar-second .block-menu ul.menu li {background: #f2f1eb; border-top: 1px solid #fbfbf9; margin: 0; padding: 12px 5px 12px 15px; list-style: none;}
-#sidebar-second .block-menu ul.menu li ul {margin: 15px 0 0 0;}
-#sidebar-second .block-menu ul.menu li ul li.last {margin: 0; padding: 15px 0 0px 10px;}
-#sidebar-second .block-menu a.active {color: #000000;}
-
-/* CONTENT -------------------------------------------------------------------*/
-.well {border: none; box-shadow:none; border-radius: 0px; border-bottom: 1px solid #c9c9c7; background: #f2f1eb; padding: 20px;}
-#sidebar-first .well {border: none; box-shadow:none; border-radius: 0px; border-bottom: 0px solid #c9c9c7; background: none; padding: 0px;}
-
-/* HELPER CLASSES ------------------------------------------------------------*/
-.red {color: #8c1515;}
-.sand {color: #827252;}
-.left {float: left; margin-bottom: 20px; margin-right: 20px;}
-.right {float: right; margin-bottom: 20px; margin-left: 20px;}
-.lined {border-bottom: 4px solid #d2d2cf; padding: 0 0 1px 0;}
-.img-description {font-size: 0.833em;}
-.spacer {margin-top: 30px;}
-.clear-right {clear: right;}
-.clear-left {clear: left;}
-.clear-both {clear: both;}
-.clear-block {} /* Already defined by drupal */
-
-.article-box {margin-top: 30px;}
-.article-box.last {margin-left: 0; margin-right: 0;}
-.article-box.style1 {border: 1px solid #e9e6df; padding: 20px;}
-.article-box.style2 {border-top: 1px solid #e9e6df; padding-top: 20px;}
-.article-box.style3 {border-top: 1px solid #e9e6df; border-bottom: 1px solid #e9e6df; padding: 20px 0;}
-
-.i-video {border: none; background: url(../images/icons-video.png) left center no-repeat; padding-left: 22px;}
-.i-image {border: none; background: url(../images/icons-image.png) left center no-repeat; padding-left: 22px;}
-.i-slide {border: none; background: url(../images/icons-slides.png) left center no-repeat; padding-left: 22px;}
-.i-audio {border: none; background: url(../images/icons-audio.png) left center no-repeat; padding-left: 22px;}
-.i-text {border: none; background: url(../images/icons-text.png) left center no-repeat; padding-left: 22px;}
-
-@media (max-width: 480px) {
-#sidebar-first .block-book, #sidebar-first .block-menu {font-size: 1em; border: none;}
-#sidebar-first .block-book h2, #sidebar-first .block-menu h2 {padding: 0.5em 0px;}
-#sidebar-second .block-book, #sidebar-second .block-menu {font-size: 1em;}
-#sidebar-first select, #sidebar-second select {width: 100%;}
-}
+/* MEDIA QUERIES ************************* */
+/* ----- Responsive ------------------ */
+/* ----- Print ----------------------- */
