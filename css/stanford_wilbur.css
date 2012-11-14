@@ -25,7 +25,7 @@
 #nav ul li {margin: 0;}
 #nav ul li a {color: #820000; background-color: #transparent; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px; padding: 4px 8px;}
 #nav ul li a:hover, #nav ul li a.active {background-color: #F2F1EB;}
-#nav ul li a.active {background-color:#faf9f5;}
+#nav ul li a.active {}
 #nav ul li ul li {}
 #nav ul li ul li a {}
 
