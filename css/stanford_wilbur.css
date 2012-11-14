@@ -89,6 +89,10 @@ h5, h6 {color:#2e2d29;}
 /* STANFORD FEATURES OVERRIDES *********** */
 /* ----- Views Slideshow ------------- */
 /* ----- Banner Image Slideshow ------ */
+.banner-image {}
+.banner-overlay {}
+.banner-overlay-caption {}
+
 /* ----- Stanford Events Importer ---- */
 /* ----- Stanford Events Views ------- */
 /* ----- Stanford Courses ------------ */
