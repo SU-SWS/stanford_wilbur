@@ -89,7 +89,7 @@ h5, h6 {color:#2e2d29;}
 /* STANFORD FEATURES OVERRIDES *********** */
 /* ----- Views Slideshow ------------- */
 /* ----- Banner Image Slideshow ------ */
-.banner-overlay {background: none repeat scroll 0 0 rgba(251, 251, 249, 0.8); color: #2e2d29; display: inline-block; max-width: 70%; padding: 25px; position: relative; top: -140px;}
+.banner-overlay {background: none repeat scroll 0 0 rgba(251, 251, 249, 0.8); color: #2e2d29; display: inline-block; max-width: 70%; padding: 25px; position: relative; top: -140px; border-bottom: 1px solid #585754;}
 .banner-overlay p {display: inline; margin-right: 15px; font-size:15px;}
 .banner-overlay-caption {font-size: 22px; line-height: 1em; margin-bottom: 8px;}
 .banner-overlay .more-link a {color: #827252;}
