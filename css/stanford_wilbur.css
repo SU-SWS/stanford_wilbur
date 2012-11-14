@@ -60,8 +60,8 @@ h5, h6 {color:#2e2d29;}
 .sub-block h2 {letter-spacing:0.015em;}
 
 /* ----- Wells ----------------------- */
-.well, .well-sidebar-only {padding-top:15px;}
-.well h2, .well-sidebar-only h2 {font-size:15px; letter-spacing:0.015em;}
+.well, #sidebar-second .well-sidebar-only {padding-top:15px;}
+.well h2, #sidebar-second .well-sidebar-only h2 {font-size:15px; letter-spacing:0.015em;}
 
 /* ----- Callouts and Blockquotes ---- */
 .callout {background-color: white;}
