@@ -12,6 +12,8 @@ h5, h6 {color:#2e2d29;}
 
 /* ----- Links ----------------------- */
 /* ----- Lists ----------------------- */
+ul li, ul li.leaf {list-style-image: url("../images/bullet.gif"); list-style-type: square;}
+
 /* ----- Tables ---------------------- */
 /* ----- Forms ----------------------- */
 /* ----- Other ----------------------- */
