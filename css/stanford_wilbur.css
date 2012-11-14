@@ -47,6 +47,8 @@
 /* POSTCARD LAYOUTS ********************** */
 
 /* IMAGES ******************************** */
+#main-content .border-underline img {border-bottom:4px solid #c5beae;}
+#main-content .border-simple-nowidth img, #main-content .border-simple img {background-color: transparent; border: 4px solid #C5BEAE; padding: 2px; margin-bottom: 6px;}
 
 /* ICONS ********************************* */
 
