@@ -89,9 +89,11 @@ h5, h6 {color:#2e2d29;}
 /* STANFORD FEATURES OVERRIDES *********** */
 /* ----- Views Slideshow ------------- */
 /* ----- Banner Image Slideshow ------ */
-.banner-image {}
-.banner-overlay {}
-.banner-overlay-caption {}
+.banner-overlay {background: none repeat scroll 0 0 rgba(0, 0, 0, 0.75); color: #F2F1EB; display: inline-block; margin-left: 6px; max-width: 70%; padding: 25px; position: relative; top: -140px;}
+.banner-overlay p {display: inline; margin-right: 15px; font-size:15px;}
+.banner-overlay-caption {font-size: 22px; line-height: 1em; margin-bottom: 8px;}
+.banner-overlay .more-link a {color: #BBAA7B;}
+.banner-overlay .more-link a:hover {color:#ddcf99;}
 
 /* ----- Stanford Events Importer ---- */
 /* ----- Stanford Events Views ------- */
