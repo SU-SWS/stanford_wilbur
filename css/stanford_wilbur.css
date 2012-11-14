@@ -32,6 +32,9 @@
 
 /* FOOTER ********************************* */
 /* ----- Fat Footer ------------------ */
+#footer {background-color:transparent;}
+#footer .block {border-top: 1px solid #f2f1eb;}
+#footer h2 {font-weight:600;}
 
 /* CONTENT ******************************** */
 
