@@ -44,8 +44,10 @@ ul li, ul li.leaf {list-style-image: url("../images/bullet.gif"); list-style-typ
 /* ----- Main Navigation ------------- */
 /* ----- Secondary Navigation -------- */
 /* ----- Breadcrumbs ----------------- */
-.breadcrumb {font-size:12px; background-color:#f2f1eb; padding: 3px 9px; -webkit-border-radius: 4px; -moz-border-radius: 4px; border-radius: 4px; color:#bdbdbc;}
+.breadcrumb {font-size:12px; background-color:#f2f1eb; padding: 3px 9px; -webkit-border-radius: 4px; -moz-border-radius: 4px; border-radius: 4px; color:#bdbdbc; margin-bottom: 44px;}
 .breadcrumb a {color:#9d9573; }
+.breadcrumb a:hover {color: #2e2d29;}
+.not-front.show-breadcrumb #main-menu {margin-bottom:10px;}
 
 /* ----- First Sidebar Menu Blocks --- */
 /* ----- Second Sidebar Menu Blocks -- */
