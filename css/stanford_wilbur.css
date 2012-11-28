@@ -11,6 +11,9 @@ h3, h4 {color:#3F3C30;}
 h5, h6 {color:#2e2d29;}
 
 /* ----- Links ----------------------- */
+p a {border-bottom:dotted 1px #827252;}
+p a:hover {border-bottom:dotted 1px #2e2d29;}
+
 /* ----- Lists ----------------------- */
 ul li, ul li.leaf {list-style-image: url("../images/bullet.gif"); list-style-type: square;}
 
