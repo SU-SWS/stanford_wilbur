@@ -6,7 +6,6 @@ version = 2.0
 
 stylesheets[all][] = css/stanford_wilbur.css
 scripts[] = js/stanford_wilbur.js
-scripts[] = js/script.js
 
 regions[global_header] = Site: Global Header
 regions[page_top] = Page: Top
