@@ -141,8 +141,10 @@ div.error { background-position: 10px 15px; background-repeat: no-repeat; border
 @media (max-width: 640px) {	
 }
 @media (max-width: 767px) {	
-.navbar-inner {background: none repeat scroll 0 0 #F2F1EB; border:none; box-shadow:none;}
+.navbar-inner {background: none repeat scroll 0 0 #F2F1EB; border:none; box-shadow:none; padding-left:10px; padding-right:10px;}
 #nav-search{margin-top:-3px;}
+.navbar .nav > .active > a, .navbar .nav > .active > a:hover, .navbar .nav > .active > a:focus {background-color:white; box-shadow:none;}
+.navbar .nav li.dropdown.open > .dropdown-toggle, .navbar .nav li.dropdown.active > .dropdown-toggle, .navbar .nav li.dropdown.open.active > .dropdown-toggle {background-color:white;}
 }
 @media (max-width: 979px) {
 }
