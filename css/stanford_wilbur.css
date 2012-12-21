@@ -145,6 +145,7 @@ div.error { background-position: 10px 15px; background-repeat: no-repeat; border
 #nav-search{margin-top:-3px;}
 .navbar .nav > .active > a, .navbar .nav > .active > a:hover, .navbar .nav > .active > a:focus {background-color:white; box-shadow:none;}
 .navbar .nav li.dropdown.open > .dropdown-toggle, .navbar .nav li.dropdown.active > .dropdown-toggle, .navbar .nav li.dropdown.open.active > .dropdown-toggle {background-color:white;}
+.nav-collapse .nav > li > a:hover, .nav-collapse .dropdown-menu a:hover {background-color:white;}
 }
 @media (max-width: 979px) {
 }
