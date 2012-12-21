@@ -42,8 +42,7 @@ ul li, ul li.leaf {list-style-image: url("../images/bullet.gif"); list-style-typ
 
 /* ----- Main Navigation ------------- */
 nav {font-size: 15px; margin: 0 0 12px 0; padding: 0; text-transform: uppercase; line-height: 1em; font-weight:600; letter-spacing:0.015em;}
-.navbar .nav > li > a {color: #827252;}
-.navbar .nav > li > a:hover, .navbar .nav > li > a:active {color: #827252;}
+
 
 /* ----- Secondary Navigation -------- */
 /* ----- Breadcrumbs ----------------- */
