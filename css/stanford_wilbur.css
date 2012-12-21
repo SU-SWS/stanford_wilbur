@@ -118,6 +118,7 @@ nav {font-size: 15px; margin: 0 0 12px 0; padding: 0; text-transform: uppercase;
 
 /* ADMINISTRATION ************************ */
 /* ----- Admin ----------------------- */
+.nav-tabs > .active > a, .nav-tabs > .active > a:hover {background-color:#FBFBF9;}
 
 /* ----- User Block ------------------ */
 
