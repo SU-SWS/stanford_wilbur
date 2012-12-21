@@ -52,6 +52,9 @@ nav {font-size: 15px; margin: 0 0 12px 0; padding: 0; text-transform: uppercase;
 .not-front.show-breadcrumb #main-menu {margin-bottom:10px;}
 
 /* ----- First Sidebar Menu Blocks --- */
+#sidebar-first .block-menu ul.menu li a:hover, #sidebar-first .block-menu ul.menu a.active-trail {background-color:#ffffff;}
+#sidebar-first .block-menu ul.menu li.active-trail ul {background-color:#ffffff;}
+
 /* ----- Second Sidebar Menu Blocks -- */
 /* ----- Admin Menu ------------------ */
 /* ----- Pager Nav ------------------- */
