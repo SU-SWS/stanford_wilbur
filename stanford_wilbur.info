@@ -7,6 +7,7 @@ version = 2.0
 stylesheets[all][] = css/stanford_wilbur.css
 scripts[] = js/stanford_wilbur.js
 
+regions[admin_shortcuts] = Admin Shortcuts (Authenticated Users Only)
 regions[global_header] = Site: Global Header
 regions[page_top] = Page: Top
 regions[header] = Header
