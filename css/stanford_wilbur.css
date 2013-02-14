@@ -105,12 +105,11 @@ nav {font-size: 15px; margin: 0 0 12px 0; padding: 0; text-transform: uppercase;
 
 /* STANFORD FEATURES OVERRIDES *********** */
 /* ----- Views Slideshow ------------- */
-/* ----- Banner Image Slideshow ------ 
-.banner-overlay > div {background: none repeat scroll 0 0 rgba(251, 251, 249, 0.9); color: #585754; display: inline-block; max-width: 70%; padding: 20px; position: relative; top: -140px; border-bottom: 1px solid #585754;}
-.banner-overlay p {display: inline; margin-right: 15px; font-size:15px;}
-.banner-overlay-caption {font-size: 22px; line-height: 1em; margin-bottom: 0.1em; }
+/* ----- Banner Image Slideshow ------ */
+.banner-overlay > div {background: none repeat scroll 0 0 rgba(251, 251, 249, 0.9); color: #585754; padding: 20px; border-bottom: 1px solid #585754;}
+.banner-overlay-caption {font-size: 22px; margin-bottom: 0.1em; }
 .banner-overlay .more-link a {color: #827252;}
-.banner-overlay .more-link a:hover {color:#2e2d29;} */
+.banner-overlay .more-link a:hover {color:#2e2d29;} 
 
 /* ----- Stanford Events Importer ---- */
 /* ----- Stanford Events Views ------- */
@@ -129,6 +128,7 @@ nav {font-size: 15px; margin: 0 0 12px 0; padding: 0; text-transform: uppercase;
 }
 /* Mobile Styles */
 @media (max-width: 480px) {
+.banner-overlay > div {background-color: #F2F1EB;}
 }
 @media (max-width: 640px) {	
 }
