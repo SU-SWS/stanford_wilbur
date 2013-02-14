@@ -75,6 +75,7 @@ nav {font-size: 15px; margin: 0 0 12px 0; padding: 0; text-transform: uppercase;
 /* CONTAINERS ***************************** */
 /* ----- Blocks ---------------------- */
 .sub-block h2 {letter-spacing:0.015em;}
+.block.well img {max-width:95%;}
 
 /* ----- Wells ----------------------- */
 .well, #sidebar-second .well-sidebar-only {padding-top:15px;}
