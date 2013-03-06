@@ -40,3 +40,19 @@ regions[content_bottom] = Content: Bottom
 regions[main_lower] = Main: Lower
 regions[main_bottom] = Main: Bottom
 regions[page_bottom] = Page: Bottom
+
+; Settings
+settings[front_heading_classes] = ''
+settings[breadcrumb_classes] = ''
+settings[body_bg_type] = ''
+settings[body_bg_classes] = ''
+settings[body_bg_path] = ''
+settings[body_bg_preview] = ''
+settings[body_bg_upload] = ''
+settings[border_classes] = ''
+settings[corner_classes] = ''
+settings[logo_image_style_classes] = ''
+settings[site_title_first_line] = ''
+settings[site_title_second_line] = ''
+settings[site_title_style_classes] = ''
+settings[site_title_position_classes] = ''
