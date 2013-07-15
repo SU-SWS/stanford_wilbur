@@ -75,7 +75,6 @@ ol.search-results li { border-bottom: 1px solid #E5E5E5; }
 /* CONTAINERS ***************************** */
 /* ----- Blocks ---------------------- */
 .sub-block h2 {letter-spacing:0.015em;}
-.block.well img {max-width:95%;}
 
 /* ----- Wells ----------------------- */
 .well, #sidebar-second .well-sidebar-only {padding-top:15px;}
