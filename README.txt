@@ -2,7 +2,7 @@ Stanford Wilbur Theme for Drupal 7.x
 
 -- SUMMARY -- 
 
-Authors: Brian Young
+Authors: Brian Young, Megan Erin Miller
 The Stanford Wilbur Drupal theme is recommended for department and official group sites.
 
 -- REQUIREMENTS --
