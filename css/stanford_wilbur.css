@@ -69,14 +69,23 @@ ul.tabs.secondary li.active a {color: #8c1515; border-bottom: 3px solid #8c1515;
 form#system-themes-form {overflow: auto;}
 
 /* GENERAL LAYOUT ------------------------------------------------------------*/
-#header #site #name {font-family: Arial Narrow, Arial, Helvetica, sans-serif; padding: 0; font-size: 3em; line-height: 1em; font-weight: normal; text-transform: uppercase; font-stretch: condensed;}
-#header #site #slogan {text-transform: uppercase;}
 
-#header #search {background-color: #f2f1eb; height: 26px; overflow: hidden; padding: 4px 5px 5px 5px; line-height: 0; -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px;}
+/* Stanford Header */
+#header {margin: 15px 0 0 0;}
+#header #logo {display: table-cell; float: none; padding: 0 10px 0 0; vertical-align: bottom;}
+#header #logo img {max-width: 180px;}
+#header #site {border-left: 1px solid #2E2D29; height: auto; padding: 0 0 0 10px; vertical-align: bottom; display: table-cell; float: none;}
+body.searchbox #header #site {float: none;}
+#header #site #name {font-family: Arial Narrow, Arial, Helvetica, sans-serif; padding: 0; color: #3f3c30; font-size: 27px; font-weight: 400; letter-spacing: -0.02em; margin-bottom: -2px; text-rendering: optimizelegibility; text-transform: none; line-height: 1em; text-transform: uppercase; font-stretch: condensed;}
+#header #site #name a {font-family: "Source Sans Pro",Arial, Helvetica, sans-serif; color: #3f3c30;}
+#header #site #slogan {font-family: "Source Sans Pro",Arial, Helvetica, sans-serif; color: #3f3c30; margin: 3px 0 -4px 0; font-size: 20px; font-style:italic;text-transform: uppercase;}
+
+#header #search {background-color: #f2f1eb; height: 26px; overflow: hidden; padding: 4px 5px 5px 5px; line-height: 0; -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px; margin-top: -3em;}
 #header #search .search-item {float: left;}
 #header #search .form-text {border: none; color: #827252; height: 26px; margin: 0; padding: 0 0 0 5px;}
 #header #search .form-submit {margin: 1px 0 0 -20px; padding: 0px; text-indent: -9999px; border: none; box-shadow: none; text-shadow: none; height: 25px; width: 25px; background: url(../images/searchbutton.png) center center no-repeat; cursor: pointer;}
 #header #search label {position: absolute; left: -1000em; width: 20em; text-align: left;}
+
 #header .container {padding: 0px 2% 0px 2%;}
 
 #page-content .container {padding: 0px 2% 0px 2%;}
@@ -172,7 +181,28 @@ form#system-themes-form {overflow: auto;}
 .i-audio {border: none; background: url(../images/icons-audio.png) left center no-repeat; padding-left: 22px;}
 .i-text {border: none; background: url(../images/icons-text.png) left center no-repeat; padding-left: 22px;}
 
+
+@media (min-width: 768px) and (max-width: 979px) {
+#header #site #name {width: 400px;}
+#header #site #slogan {width: 400px;}
+}
+
+@media (min-width: 640px) and (max-width: 767px) {
+#header #site #name {width: 300px;}
+#header #site #slogan {width: 300px;}
+}
+
+@media (max-width: 640px) {
+#header #search {position: static; left: 0; bottom: 0; float :none; clear: both; margin: 20px 10px 0 10px;}
+body.searchbox #header #site {float: none;}
+}
+
 @media (max-width: 480px) {
+#header #logo img {width: 100px;}
+#header #logo {display: none;}
+#header #site {border-left: 0px;}
+#header .container {padding: 0 0 15px 0;}
+
 #sidebar-first .block-book, #sidebar-first .block-menu {font-size: 1em; border: none;}
 #sidebar-first .block-book h2, #sidebar-first .block-menu h2 {padding: 0.5em 0px;}
 #sidebar-second .block-book, #sidebar-second .block-menu {font-size: 1em;}
