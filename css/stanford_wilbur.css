@@ -9,6 +9,7 @@ h1 {color:#3f3c30; letter-spacing: -0.01em;}
 h2 {font-size:17px; font-weight: 600; letter-spacing: 0.01em;}
 h3, h4 {color:#3F3C30;}
 h5, h6 {color:#2e2d29;}
+.content h2.block-title-style {text-transform: uppercase; font-size: 17px; font-weight: 600; letter-spacing: 0.01em;}
 
 /* ----- Links ----------------------- */
 p a {border-bottom:dotted 1px #827252;}
