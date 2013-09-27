@@ -46,7 +46,7 @@ nav {font-size: 15px; margin: 0 0 12px 0; padding: 0; text-transform: uppercase;
 
 /* ----- Secondary Navigation -------- */
 /* ----- Breadcrumbs ----------------- */
-.breadcrumb {font-size:12px; background-color:#f2f1eb; padding: 3px 10px; -webkit-border-radius: 4px; -moz-border-radius: 4px; border-radius: 4px; color:#bdbdbc; margin-bottom: 44px; margin-left: -5px;}
+.breadcrumb {font-size:12px; background-color:#f2f1eb; padding: 3px 10px; -webkit-border-radius: 4px; -moz-border-radius: 4px; border-radius: 4px; color:#595855; margin-bottom: 44px; margin-left: -5px;}
 .breadcrumb a {color:#9d9573; margin-left: 2px; margin-right: 2px;}
 .breadcrumb a:hover {color: #2e2d29;}
 .not-front.show-breadcrumb #main-menu {margin-bottom:10px;}
