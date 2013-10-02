@@ -4,8 +4,8 @@ Stanford University owns all Stanford-branded themes and governs their use to be
 
 Use of the Stanford-branded themes is limited to Stanford University academic and administrative activities. Use is granted solely to:
 
-* University academic and administrative units;
-* University-recognized student organizations for activities related to Stanford (see http://studentaffairs.stanford.edu/sal/policies/stanford-name)
+* University academic departments, centers and research groups;
+* University administrative units;
 
 The Stanford brand bar and Stanford universal footer should not be edited or altered in any way, following the Identity toolkit guidelines at https://identity.stanford.edu/web-toolkit/
 
