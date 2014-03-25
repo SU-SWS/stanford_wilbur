@@ -7,7 +7,7 @@ The Stanford Wilbur Drupal theme is recommended for department and official grou
 
 -- REQUIREMENTS --
 
-The Stanford Wilbur Drupal theme is intended for Drupal versions 7 only; it will not work with Drupal 6 or below.  You must install the Open Framework and Stanford Framework themes for Stanford Wilbur to operate properly.
+The Stanford Wilbur Drupal theme is intended for Drupal versions 7 only; it will not work with Drupal 6 or below. You must install the Open Framework and Stanford Framework themes for Stanford Wilbur to operate properly.
 
 -- INSTALLATION --
 
@@ -17,5 +17,4 @@ More detailed information on installing themes here: http://drupal.org/getting-s
 
 -- TROUBLESHOOTING --
 
-If you encounter any issues while using this theme at Stanford, please send a message to:
-drupallers@lists.stanford.edu
+If you encounter any issues while using this theme, please file a HelpSU request: http://helpsu.stanford.edu/helpsu.cgi?pcat=webdesign
