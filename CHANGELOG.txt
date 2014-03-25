@@ -1,3 +1,9 @@
+Version 7.x-2.1-beta1
+------------------------------
+by hyperboy: Updated Terms of Use
+by hyperboy: Removed left margin in breadcrumbs
+by hyperboy: Updated breadcrumb color
+
 Version 7.x-2.01
 ------------------------------
 by hyperboy: Updated logo to be retina
