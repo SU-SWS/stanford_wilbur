@@ -3,6 +3,8 @@ base theme = stanford_framework
 description = Modern, clean, minimal subtheme of Stanford Framework, recommended for department and official group sites. Requires Stanford Framework and <a href="http://openframework.stanford.edu">Open Framework</a> to be enabled. Provided by <a href="http://webservices.stanford.edu">Stanford Web Services</a>. Learn more at the <a href="http://drupalthemes.stanford.edu">Drupal Themes website</a>.
 core = 7.x
 version = 7.x-2.1-beta1
+project = stanford_wilbur
+project status url = https://github.com/SU-SWS/stanford_wilbur
 
 stylesheets[all][] = css/stanford_wilbur.css
 scripts[] = js/stanford_wilbur.js
