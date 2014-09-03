@@ -1,12 +1,9 @@
-Version 7.x-2.1-beta2
+Version 7.x-2.1
 ------------------------------
 by meganem: Updated readme.txt
 by hyperboy: Updated Stanford favicon image
 by sherakama: Added project URL to .info file
 by hyperboy: Updated theme description in .info file
-
-Version 7.x-2.1-beta1
-------------------------------
 by hyperboy: Updated Terms of Use
 by hyperboy: Removed left margin in breadcrumbs
 by hyperboy: Updated breadcrumb color
