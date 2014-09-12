@@ -1,3 +1,7 @@
+Version 7.x-3.x-dev
+------------------------------
+meganem: Initiated 7.x-3.x branch. Now tracking changes to CSS in Stanford Framework
+
 Version 7.x-2.1
 ------------------------------
 by meganem: Updated readme.txt
