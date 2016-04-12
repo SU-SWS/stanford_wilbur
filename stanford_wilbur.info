@@ -2,7 +2,7 @@ name = Stanford Wilbur
 base theme = stanford_framework
 description = Use of the Stanford-branded themes is limited to Stanford University academic departments, centers, research groups, and administrative units. If your website is for a student group, please use the Stanford Light theme. Modern, clean, minimal subtheme of Stanford Framework, recommended for department and official group sites. Requires Stanford Framework and <a href="http://openframework.stanford.edu">Open Framework</a> to be enabled. Provided by <a href="http://webservices.stanford.edu">Stanford Web Services</a>. Learn more at the <a href="http://drupalthemes.stanford.edu">Drupal Themes website</a>.
 core = 7.x
-version = 7.x-3.x-dev
+version = 7.x-3.0
 project = stanford_wilbur
 project status url = https://github.com/SU-SWS/stanford_wilbur
 
@@ -14,6 +14,7 @@ regions[global_header] = Site: Global Header
 regions[header] = Header
 regions[navigation] = Navigation
 regions[search_box] = Search Box
+regions[fullwidth_top] = Full Width Top
 regions[main_top] = Main: Top
 regions[main_upper] = Main: Upper
 regions[sidebar_first] = First sidebar
@@ -40,9 +41,12 @@ regions[sidebar_second] = Second sidebar
 regions[main_lower] = Main: Lower
 regions[main_bottom] = Main: Bottom
 regions[page_bottom] = Page: Bottom
+regions[fullwidth_bottom] = Full Width Bottom
 regions[footer] = Footer
 
 ; Settings
+settings[font_awesome_version] = 'font-awesome-3'
+settings[content_order_classes] = ''
 settings[front_heading_classes] = ''
 settings[breadcrumb_classes] = ''
 settings[body_bg_type] = ''
@@ -54,6 +58,24 @@ settings[border_classes] = ''
 settings[corner_classes] = ''
 settings[logo_image_style_classes] = ''
 settings[site_title_first_line] = ''
-settings[site_title_second_line] = ''
 settings[site_title_style_classes] = ''
+settings[site_title_second_line] = ''
+settings[site_title_third_line] = ''
+settings[site_title_below_logo] = ''
+settings[site_title_new_line] = ''
+settings[site_title_new_line_style] = ''
+settings[choosestyle_styleoptions] = 'style-default'
+
+; Stanford Light Settings
+settings[styles] = 'styles-light'
+settings[fonts] = 'fonts-sans'
+settings[header_bkg] = ''
+settings[header_bkg_path] = ''
+settings[header_bkg_preview] = ''
+settings[header_bkg_upload] = ''
+settings[header_bkg_style] = 'header-bkg-image'
+settings[header_bkg_text] = 'header-bkg-text-light'
+settings[header_bkg_style_front] = ''
+
+; Legacy Settings
 settings[site_title_position_classes] = ''
