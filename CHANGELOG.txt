@@ -1,7 +1,6 @@
 Version 7.x-3.0
 ------------------------------
 hyperboy: Added full width block regions
-meganem: Initiated 7.x-3.x branch. Now tracking changes to CSS in Stanford Framework
 
 Version 7.x-2.1
 ------------------------------
